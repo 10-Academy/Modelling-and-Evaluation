@@ -44,22 +44,32 @@ True negatives (TN): Predicted negative and are actually negative.<br>
 False negatives (FN): Predicted negative and are actually positive<br>
 
 1. Confusion matrix: is just a matrix of the above evaluation metrics
+
 ![confusion_matrix](https://user-images.githubusercontent.com/40719064/112985360-fbf12800-9157-11eb-9cde-4bec6dd194b8.png)
 
 2. Accuracy: the most commonly used metric to judge a model and is actually not a clear indicator of the performance. The worse happens when classes are imbalanced.
+
 ![accuracy score](https://miro.medium.com/max/230/1*PfGgbFFjLjGYkp_lHXFvgg.png)
 
-3. Precision: Percentage of positive instances out of the total predicted positive instances. Here denominator is the model prediction done as positive from the whole given dataset. Take it as to find out ‘how much the model is right when it says it is right’. ![precision score](https://miro.medium.com/max/105/1*LWDZT9hRYc7BAzpeZUOZrg.png)
+3. Precision: Percentage of positive instances out of the total predicted positive instances. Here denominator is the model prediction done as positive from the whole given dataset. Take it as to find out ‘how much the model is right when it says it is right’. 
 
-4. Recall/Sensitivity/True Positive Rate: Percentage of positive instances out of the total actual positive instances. Therefore denominator (TP + FN) here is the actual number of positive instances present in the dataset. Take it as to find out ‘how much extra right ones, the model missed when it showed the right ones’. ![recall score](https://miro.medium.com/max/111/1*U_CKVn3iy9WN6ckfZ9_LeA.png)
+![precision score](https://miro.medium.com/max/105/1*LWDZT9hRYc7BAzpeZUOZrg.png)
 
-5. F1-Score: it is the harmonic mean of both the Precision and Recall. One drawback is that both precision and recall are given equal importance due to which according to our application we may need one higher than the other and F1 score may not be the exact metric for it. Therefore either weighted-F1 score or seeing the PR or ROC curve can help. ![f1](https://miro.medium.com/max/533/1*rxeJQS0ALoR3pFNFjgTD6g.png)
+4. Recall/Sensitivity/True Positive Rate: Percentage of positive instances out of the total actual positive instances. Therefore denominator (TP + FN) here is the actual number of positive instances present in the dataset. Take it as to find out ‘how much extra right ones, the model missed when it showed the right ones’. 
+
+![recall score](https://miro.medium.com/max/111/1*U_CKVn3iy9WN6ckfZ9_LeA.png)
+
+5. F1-Score: it is the harmonic mean of both the Precision and Recall. One drawback is that both precision and recall are given equal importance due to which according to our application we may need one higher than the other and F1 score may not be the exact metric for it. Therefore either weighted-F1 score or seeing the PR or ROC curve can help.
+
+![f1](https://miro.medium.com/max/533/1*rxeJQS0ALoR3pFNFjgTD6g.png)
+
 6. ROC curve: ROC stands for receiver operating characteristic and the graph is plotted against TPR and FPR for various threshold values. As TPR increases FPR also increases.
 
 Learn More about Machine Learning Evaluation Metrics (Classification) [here](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
 
 ## Evaluating Machine Learning Models (Regression)
 1. Mean Absolute Error (MAE): The simplest measure of forecast accuracy is called Mean Absolute Error (MAE). MAE is simply, as the name suggests, the mean of the absolute errors. The absolute error is the absolute value of the difference between the forecasted value and the actual value. MAE tells us how big of an error we can expect from the forecast on average. One problem with the MAE is that the relative size of the error is not always obvious. Sometimes it is hard to tell a big error from a small error. To deal with this problem, we can find the mean absolute error in percentage terms.
+
 2. Mean Absolute Percentage Error (MAPE): The mean absolute percentage error (MAPE) is a statistical measure of how accurate a forecast system is. It measures this accuracy as a percentage, and can be calculated as the average absolute percent error for each time period minus actual values divided by actual values. ![mape](https://miro.medium.com/max/363/1*Txq63FvjzmdK-sDeCCDx1A.png)
 
 Where <br>
@@ -67,6 +77,7 @@ M	=	mean absolute percentage error <br>
 n	=	number of times the summation iteration happens <br>
 A_t	=	actual value <br>
 F_t	=	forecast value <br>
+
 3. Mean Squared Error (MSE): the mean squared error (MSE) or mean squared deviation (MSD) of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors that is, the average squared difference between the estimated values and the actual value. 
 ![mse](https://www.gstatic.com/education/formulas2/355397047/en/mean_squared_error.svg)
 
