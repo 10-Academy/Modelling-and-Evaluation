@@ -56,4 +56,14 @@ False negatives (FN): Predicted negative and are actually positive<br>
 5. F1-Score: it is the harmonic mean of both the Precision and Recall. One drawback is that both precision and recall are given equal importance due to which according to our application we may need one higher than the other and F1 score may not be the exact metric for it. Therefore either weighted-F1 score or seeing the PR or ROC curve can help. ![f1](https://miro.medium.com/max/533/1*rxeJQS0ALoR3pFNFjgTD6g.png)
 6. ROC curve: ROC stands for receiver operating characteristic and the graph is plotted against TPR and FPR for various threshold values. As TPR increases FPR also increases.
 
+Learn More about Machine Learning Evaluation Metrics (Classification) [here](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
+
 ## Evaluating Machine Learning Models (Regression)
+1. Mean Absolute Error (MAE): The simplest measure of forecast accuracy is called Mean Absolute Error (MAE). MAE is simply, as the name suggests, the mean of the absolute errors. The absolute error is the absolute value of the difference between the forecasted value and the actual value. MAE tells us how big of an error we can expect from the forecast on average. One problem with the MAE is that the relative size of the error is not always obvious. Sometimes it is hard to tell a big error from a small error. To deal with this problem, we can find the mean absolute error in percentage terms.
+2. Mean Absolute Percentage Error (MAPE): The mean absolute percentage error (MAPE) is a statistical measure of how accurate a forecast system is. It measures this accuracy as a percentage, and can be calculated as the average absolute percent error for each time period minus actual values divided by actual values. ![mape](https://miro.medium.com/max/363/1*Txq63FvjzmdK-sDeCCDx1A.png) Where 
+M	=	mean absolute percentage error <br>
+n	=	number of times the summation iteration happens <br>
+A_t	=	actual value <br>
+F_t	=	forecast value <br>
+3. Mean Squared Error (MSE): the mean squared error (MSE) or mean squared deviation (MSD) of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors that is, the average squared difference between the estimated values and the actual value. ![mse](https://wikimedia.org/api/rest_v1/media/math/render/svg/e258221518869aa1c6561bb75b99476c4734108e)
+4. Root Mean Squared Error (RMSE)
