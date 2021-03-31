@@ -70,7 +70,9 @@ Learn More about Machine Learning Evaluation Metrics (Classification) [here](htt
 ## Evaluating Machine Learning Models (Regression)
 1. Mean Absolute Error (MAE): The simplest measure of forecast accuracy is called Mean Absolute Error (MAE). MAE is simply, as the name suggests, the mean of the absolute errors. The absolute error is the absolute value of the difference between the forecasted value and the actual value. MAE tells us how big of an error we can expect from the forecast on average. One problem with the MAE is that the relative size of the error is not always obvious. Sometimes it is hard to tell a big error from a small error. To deal with this problem, we can find the mean absolute error in percentage terms.
 
-2. Mean Absolute Percentage Error (MAPE): The mean absolute percentage error (MAPE) is a statistical measure of how accurate a forecast system is. It measures this accuracy as a percentage, and can be calculated as the average absolute percent error for each time period minus actual values divided by actual values. ![mape](https://miro.medium.com/max/363/1*Txq63FvjzmdK-sDeCCDx1A.png)
+2. Mean Absolute Percentage Error (MAPE): The mean absolute percentage error (MAPE) is a statistical measure of how accurate a forecast system is. It measures this accuracy as a percentage, and can be calculated as the average absolute percent error for each time period minus actual values divided by actual values. 
+
+![mape](https://miro.medium.com/max/363/1*Txq63FvjzmdK-sDeCCDx1A.png)
 
 Where <br>
 M	=	mean absolute percentage error <br>
@@ -79,15 +81,16 @@ A_t	=	actual value <br>
 F_t	=	forecast value <br>
 
 3. Mean Squared Error (MSE): the mean squared error (MSE) or mean squared deviation (MSD) of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors that is, the average squared difference between the estimated values and the actual value. 
+
 ![mse](https://www.gstatic.com/education/formulas2/355397047/en/mean_squared_error.svg)
 
 4. Root Mean Squared Error (RMSE): The regression line predicts the average y value associated with a given x value. Note that is also necessary to get a measure of the spread of the y values around that average. To do this, we use the root-mean-square error (r.m.s. error).
-To construct the r.m.s. error, you first need to determine the residuals. Residuals are the difference between the actual values and the predicted values. I denoted them by  $\hat{y}_i -y_i$, where $y_i$ is the observed value for the ith observation and $\hat{y}_i$ is the predicted value.
+To construct the r.m.s. error, you first need to determine the residuals. Residuals are the difference between the actual values and the predicted values. 
 They can be positive or negative as the predicted value under or over estimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the r.m.s error. You then use the r.m.s. error as a measure of the spread of the y values about the predicted y value.  ![rmse](https://www.gstatic.com/education/formulas2/355397047/en/root_mean_square_deviation.svg)
 
 Note that the list of Evaluation metrics for both classification and regression problems is not exhaustive, there are some others that are not mentioned because they are not so common.
 
-Learn More
+## Learn More
 1. [Model Evaluation](https://blog.dominodatalab.com/model-evaluation/)
 2. [Introduction to Machine Learning Model Evaluation](https://heartbeat.fritz.ai/introduction-to-machine-learning-model-evaluation-fa859e1b2d7f)
 
