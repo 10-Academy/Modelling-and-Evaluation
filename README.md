@@ -1,6 +1,5 @@
 # Modelling and Evaluation
 
-What is Modelling and Evaluation as it relates to Machine Learning
 We can explain Machine Learning Models without discussing Statistical Modelling
 From Wikipedia, statistical model is a mathematical model that embodies a set of statistical assumptions concerning the generation of sample data (and similar data from a larger population). A statistical model represents, often in considerably idealized form, the data-generating process.
 
@@ -12,7 +11,7 @@ When your algorithm learns what are the features are important in distinguishing
 
 2. Validating the Machine Learning Model: Developing a ML model is not enough, you need to validate the model to check its accuracy/RMSE, so that you can ensure the prediction quality in real-life. To evaluate such ML model, you need another set of training data which can be also called the validation data, use to check the accuracy level/RMSE of the model in different scenario and to ensure the model generalize well.
 
-## Key Types of Machine Learning Models (Algorithms)
+## Common Types of Machine Learning Models (Algorithms)
 1. Supervised Learning
 How it works: This algorithm consist of a target / outcome variable (or dependent variable) which is to be predicted from a given set of predictors (independent variables). Using these set of variables, we generate a function that map inputs to desired outputs. The training process continues until the model achieves a desired level of accuracy on the training data. Examples of Supervised Learning: Regression, [Decision Tree](https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/), [Random Forest](https://www.analyticsvidhya.com/blog/2014/06/introduction-random-forest-simplified/), [KNN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761), [Logistic Regression](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python) etc.
 
@@ -35,7 +34,7 @@ How it works: Using this algorithm, the machine is trained to make specific deci
 9. Dimensionality Reduction Algorithms
 10. Gradient Boosting algorithms
 
-The [article attached here](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/) explains all you need to know about all the listed algorithm, how, when and why we use them. 
+The [article attached here](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/) explain all you need to know about all the listed algorithm, how, when and why we use them. 
 
 ## Evaluating Machine Learning Models (classification)
 True positives (TP): Predicted positive and are actually positive. <br>
