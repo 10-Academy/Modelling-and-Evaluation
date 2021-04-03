@@ -6,10 +6,13 @@ From Wikipedia, statistical model is a mathematical model that embodies a set of
 Statistical modelling is a method of mathematically approximating the world. Statistical models contain variables that can be used to explain relationships between other variables. We use hypothesis testing, confidence intervals etc to make inferences and validate our hypothesis. Machine learning is all about results, it is like working in a company where your worth is characterized solely by your performance. Whereas, statistical modeling is more about finding relationships between variables and the significance of those relationships, whilst also catering for prediction.
 
 ## Importance of Understanding Modelling and Evaluation
-1. Recognition and Classification of Objects: Training a Machine Learning Models helps to label/annotate data and make right decisions. For an example, if you want your algorithm to recognize these two different species of animals — say a cat and dog, you need labeled images containing these two class of animals.
+1. Recognition and Classification of Objects: Training a Machine Learning Model helps to label/annotate data and make right decisions. For an example, if you want your algorithm to recognize these two different species of animals — say a cat and dog, you need labeled images containing these two class of animals.
 When your algorithm learns what are the features are important in distinguishing between two classes. It helps them to recognize and classify the similar objects in future, thus training data is very important for such classification. And if it is not accurate it will badly affect the model results, that can become the major reason behind the failure of AI project.
 
 2. Validating the Machine Learning Model: Developing a ML model is not enough, you need to validate the model to check its accuracy/RMSE, so that you can ensure the prediction quality in real-life. To evaluate such ML model, you need another set of training data which can be also called the validation data, use to check the accuracy level/RMSE of the model in different scenario and to ensure the model generalize well.
+
+## Examples of how you use Modelling and Evaluation help to solve problem
+Modelling is a form of estimation (approximation). When you are able to estimate something, you are able to prepare for it. For example, you and your family members wants to have dinner and you are to prepare the nutritious meal, given the number of people (family members) present in the house you estimated that 15 cups of Rice will be enough to  fill everybody stomach. Now you need a way to measure if your estimate is good enough or close then you evaluate the estimate by cooking the food (15 cups of rice) and you serve everybody and still have some cooked rice in the pot. That is Modelling and Evaluation. It has helped you create an estimate for the cup of rice you should prepare for the number of family member present in the house.
 
 ## Common Types of Machine Learning Models (Algorithms)
 1. Supervised Learning
@@ -88,6 +91,10 @@ To construct the r.m.s. error, you first need to determine the residuals. Residu
 They can be positive or negative as the predicted value under or over estimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the r.m.s error. You then use the r.m.s. error as a measure of the spread of the y values about the predicted y value.  ![rmse](https://www.gstatic.com/education/formulas2/355397047/en/root_mean_square_deviation.svg)
 
 Note that the list of Evaluation metrics for both classification and regression problems is not exhaustive, there are some others that are not mentioned because they are not so common.
+
+## What differentiates begineers from experts
+1. Building a model that can generalize well: Experts use Cross validation to build models that can generalize well
+2. Tuning Parameters of models: Experts knows how to use hyper parameters to get the best out of models
 
 ## Learn More
 1. [Model Evaluation](https://blog.dominodatalab.com/model-evaluation/)
