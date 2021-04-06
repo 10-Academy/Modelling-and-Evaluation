@@ -96,9 +96,16 @@ They can be positive or negative as the predicted value under or over estimates 
 Note that the list of Evaluation metrics for both classification and regression problems is not exhaustive, there are some others that were not mentioned.
 ![tensorboard](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1524647199/tensorboard_2_oogqq3.png)
 
-## What differentiates begineers from experts
-1. Building a model that can generalize well: Experts use Cross validation to build models that can generalize well
-2. Tuning Parameters of models: Experts knows how to use hyper parameters to get the best out of models
+## What differentiates beginners from experts
+- **Beginner**
+  - Can build ML models and evaluate it
+  - Knows about model parameter and can tune them blindly
+- **Expert**
+  - possess the ability to build model that generalize well
+  - possess the ability to perform hyper-parameter tuning automatically using tools like OptunaAI
+  - can interpret model results
+  - can detect models problems (Overfitting, Underfitting)
+  - knows how to stack model
 
 ## Learn More
 1. [Model Evaluation](https://blog.dominodatalab.com/model-evaluation/)
