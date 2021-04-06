@@ -5,9 +5,12 @@ From Wikipedia, statistical model is a mathematical model that embodies a set of
 
 Statistical modelling is a method of mathematically approximating the world. Statistical models contain variables that can be used to explain relationships between other variables. We use hypothesis testing, confidence intervals etc to make inferences and validate our hypothesis. Machine learning is all about results, it is like working in a company where your worth is characterized solely by your performance. Whereas, statistical modeling is more about finding relationships between variables and the significance of those relationships, whilst also catering for prediction.
 
+
 ## Importance of Understanding Modelling and Evaluation
 1. Recognition and Classification of Objects: Training a Machine Learning Model helps to label/annotate data and make right decisions. For an example, if you want your algorithm to recognize these two different species of animals — say a cat and dog, you need labeled images containing these two class of animals.
 When your algorithm learns what are the features are important in distinguishing between two classes. It helps them to recognize and classify the similar objects in future, thus training data is very important for such classification. And if it is not accurate it will badly affect the model results, that can become the major reason behind the failure of AI project.
+
+  From Wikipedia, In mathematics and computer science, an **algorithm** is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. The study of algorithms that improve automatically through experience and by the use of data is called **Machine Learning**. What this means is that instead of telling the computer what to do when something happen in the algorithm, you just give the computer a bunch of data and you allow it automatically fine-tune the algorithm such that it performance for that specific task improves.
 
 2. Validating the Machine Learning Model: Developing a ML model is not enough, you need to validate the model to check its accuracy/RMSE, so that you can ensure the prediction quality in real-life. To evaluate such ML model, you need another set of training data which can be also called the validation data, use to check the accuracy level/RMSE of the model in different scenario and to ensure the model generalize well.
 
