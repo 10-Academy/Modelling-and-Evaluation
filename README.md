@@ -68,9 +68,9 @@ False negatives (FN): Predicted negative and are actually positive<br>
 
 ![f1](https://miro.medium.com/max/533/1*rxeJQS0ALoR3pFNFjgTD6g.png)
 
-6. ROC curve: ROC stands for receiver operating characteristic and the graph is plotted against TPR and FPR for various threshold values. As TPR increases FPR also increases.
+6. ROC curve: ROC stands for receiver operating characteristic and the graph is plotted against TPR and FPR for various threshold values. As TPR increases FPR also increases. Learn More about Machine Learning Evaluation Metrics (Classification) [here](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
 
-Learn More about Machine Learning Evaluation Metrics (Classification) [here](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
+![Gradient Boosting_ROC](https://user-images.githubusercontent.com/40719064/113693056-1716e700-96c6-11eb-91b7-0f8e6907494d.png)
 
 ## Evaluating Machine Learning Models (Regression)
 1. Mean Absolute Error (MAE): The simplest measure of forecast accuracy is called Mean Absolute Error (MAE). MAE is simply, as the name suggests, the mean of the absolute errors. The absolute error is the absolute value of the difference between the forecasted value and the actual value. MAE tells us how big of an error we can expect from the forecast on average. One problem with the MAE is that the relative size of the error is not always obvious. Sometimes it is hard to tell a big error from a small error. To deal with this problem, we can find the mean absolute error in percentage terms.
@@ -93,7 +93,8 @@ F_t	=	forecast value <br>
 To construct the r.m.s. error, you first need to determine the residuals. Residuals are the difference between the actual values and the predicted values. 
 They can be positive or negative as the predicted value under or over estimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the r.m.s error. You then use the r.m.s. error as a measure of the spread of the y values about the predicted y value.  ![rmse](https://www.gstatic.com/education/formulas2/355397047/en/root_mean_square_deviation.svg)
 
-Note that the list of Evaluation metrics for both classification and regression problems is not exhaustive, there are some others that are not mentioned because they are not so common.
+Note that the list of Evaluation metrics for both classification and regression problems is not exhaustive, there are some others that were not mentioned.
+![tensorboard](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1524647199/tensorboard_2_oogqq3.png)
 
 ## What differentiates begineers from experts
 1. Building a model that can generalize well: Experts use Cross validation to build models that can generalize well
